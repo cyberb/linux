@@ -5,4 +5,4 @@ addons:
     - bc
 script:
  - make defconfig
- - make
+ - make -j10
