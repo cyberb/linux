@@ -1,4 +1,8 @@
 language: c
+addons:
+  apt:
+    packages:
+    - bc
 script:
  - make defconfig
  - make
